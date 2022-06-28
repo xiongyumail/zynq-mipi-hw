@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/ESP32.pretty")(options "")(descr ""))
+  (lib (name "LCD")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/LCD.pretty")(options "")(descr ""))
+  (lib (name "MISC")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/MISC.pretty")(options "")(descr ""))
+  (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/USB.pretty")(options "")(descr ""))
+  (lib (name "APDS-9960")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/APDS-9960.pretty")(options "")(descr ""))
+  (lib (name "ANT")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/ANT.pretty")(options "")(descr ""))
+  (lib (name "JACK")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/JACK.pretty")(options "")(descr ""))
+  (lib (name "RGB_LED")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/RGB_LED.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/kicad-lib/modules/Espressif.pretty")(options "")(descr ""))
+)

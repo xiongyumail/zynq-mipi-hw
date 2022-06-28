@@ -1,0 +1,165 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R3
+U 1 1 60AA5CC6
+P 5800 2950
+AR Path="/60AA5C22/60AA5CC6" Ref="R3"  Part="1" 
+AR Path="/60AA9289/60AA5CC6" Ref="R9"  Part="1" 
+AR Path="/60AA92C0/60AA5CC6" Ref="R15"  Part="1" 
+F 0 "R15" H 5870 2996 50  0000 L CNN
+F 1 "68R1" H 5870 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5730 2950 50  0001 C CNN
+F 3 "~" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60AA5F92
+P 5800 3450
+AR Path="/60AA5C22/60AA5F92" Ref="R5"  Part="1" 
+AR Path="/60AA9289/60AA5F92" Ref="R11"  Part="1" 
+AR Path="/60AA92C0/60AA5F92" Ref="R17"  Part="1" 
+F 0 "R17" H 5870 3496 50  0000 L CNN
+F 1 "51" H 5870 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5730 3450 50  0001 C CNN
+F 3 "~" H 5800 3450 50  0001 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60AA62D3
+P 5800 3950
+AR Path="/60AA5C22/60AA62D3" Ref="R6"  Part="1" 
+AR Path="/60AA9289/60AA62D3" Ref="R12"  Part="1" 
+AR Path="/60AA92C0/60AA62D3" Ref="R18"  Part="1" 
+F 0 "R18" H 5870 3996 50  0000 L CNN
+F 1 "51" H 5870 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5730 3950 50  0001 C CNN
+F 3 "~" H 5800 3950 50  0001 C CNN
+	1    5800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60AA6821
+P 5800 4450
+AR Path="/60AA5C22/60AA6821" Ref="R8"  Part="1" 
+AR Path="/60AA9289/60AA6821" Ref="R14"  Part="1" 
+AR Path="/60AA92C0/60AA6821" Ref="R20"  Part="1" 
+F 0 "R20" H 5870 4496 50  0000 L CNN
+F 1 "68R1" H 5870 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5730 4450 50  0001 C CNN
+F 3 "~" H 5800 4450 50  0001 C CNN
+	1    5800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60AA6C77
+P 5400 3200
+AR Path="/60AA5C22/60AA6C77" Ref="R4"  Part="1" 
+AR Path="/60AA9289/60AA6C77" Ref="R10"  Part="1" 
+AR Path="/60AA92C0/60AA6C77" Ref="R16"  Part="1" 
+F 0 "R16" V 5193 3200 50  0000 C CNN
+F 1 "619" V 5284 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5330 3200 50  0001 C CNN
+F 3 "~" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60AA6FF6
+P 5400 4200
+AR Path="/60AA5C22/60AA6FF6" Ref="R7"  Part="1" 
+AR Path="/60AA9289/60AA6FF6" Ref="R13"  Part="1" 
+AR Path="/60AA92C0/60AA6FF6" Ref="R19"  Part="1" 
+F 0 "R19" V 5193 4200 50  0000 C CNN
+F 1 "619" V 5284 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5330 4200 50  0001 C CNN
+F 3 "~" H 5400 4200 50  0001 C CNN
+	1    5400 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4200 5800 4200
+Wire Wire Line
+	5800 4200 5800 4100
+Wire Wire Line
+	5800 4300 5800 4200
+Connection ~ 5800 4200
+Wire Wire Line
+	5800 3800 5800 3700
+Wire Wire Line
+	5800 3300 5800 3200
+Wire Wire Line
+	5550 3200 5800 3200
+Connection ~ 5800 3200
+Wire Wire Line
+	5800 3200 5800 3100
+Wire Wire Line
+	5800 3700 6100 3700
+Wire Wire Line
+	6100 3700 6100 3800
+Connection ~ 5800 3700
+Wire Wire Line
+	5800 3700 5800 3600
+$Comp
+L power:GNDD #PWR0121
+U 1 1 60AA7D55
+P 6100 3800
+AR Path="/60AA5C22/60AA7D55" Ref="#PWR0121"  Part="1" 
+AR Path="/60AA9289/60AA7D55" Ref="#PWR0122"  Part="1" 
+AR Path="/60AA92C0/60AA7D55" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 6100 3550 50  0001 C CNN
+F 1 "GNDD" H 6104 3645 50  0000 C CNN
+F 2 "" H 6100 3800 50  0001 C CNN
+F 3 "" H 6100 3800 50  0001 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4600 5800 4700
+Wire Wire Line
+	5800 4700 4800 4700
+Wire Wire Line
+	4800 4200 5250 4200
+Wire Wire Line
+	4800 3200 5250 3200
+Wire Wire Line
+	5800 2800 5800 2700
+Wire Wire Line
+	5800 2700 4800 2700
+Text HLabel 4800 2700 0    50   Input ~ 0
+LP_P
+Text HLabel 4800 3200 0    50   Input ~ 0
+HS_P
+Text HLabel 4800 4200 0    50   Input ~ 0
+HS_N
+Text HLabel 4800 4700 0    50   Input ~ 0
+LP_N
+Wire Wire Line
+	5800 3200 7000 3200
+Wire Wire Line
+	5800 4200 7000 4200
+Text HLabel 7000 3200 2    50   Output ~ 0
+LANE_P
+Text HLabel 7000 4200 2    50   Output ~ 0
+LANE_N
+$EndSCHEMATC
